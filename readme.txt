@@ -4,12 +4,13 @@ Susan Selene / Dialogue Archive
 /
   index.html        トップページ／記事一覧
   ogp.png           トップページ用OGP画像
+  _redirects        Netlify用リダイレクト設定
 /taiyo/
   index.html        『太陽を盗んだ男』対話
   ogp.png           記事用OGP画像
 /hipgnosis/
   index.html        『ヒプノシス　レコードジャケットの美学』対話
-  have_a_cigar.jpg  『Have a Cigar』対訳画像
+  have_a_cigar.svg  『Have a Cigar』対訳画像
 
 公開URL:
 https://susan-selene.netlify.app/
