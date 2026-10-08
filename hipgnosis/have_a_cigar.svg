@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Pink Floyd – Have a Cigar 対訳</title>
+  <desc id="desc">英語歌詞と日本語対訳を左右二段に配した画像</desc>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <g fill="#111" font-size="30" font-family="Georgia, 'Times New Roman', serif">
+    <text x="85" y="105">Come in here, dear boy, have a cigar</text>
+    <text x="85" y="160">You're gonna go far, you're gonna fly high</text>
+    <text x="85" y="215">You're never gonna die</text>
+    <text x="85" y="270">You're gonna make it if you try</text>
+    <text x="85" y="325">They're gonna love you</text>
+    <text x="85" y="380">Well, I've always had a deep respect</text>
+    <text x="85" y="435">And I mean that most sincerely</text>
+    <text x="85" y="490">The band is just fantastic</text>
+    <text x="85" y="545">That is really what I think</text>
+    <text x="85" y="600">Oh, by the way, which one's Pink?</text>
+    <text x="85" y="710">And did we tell you the name of the game, boy?</text>
+    <text x="85" y="765">We call it riding the gravy train</text>
+    <text x="520" y="895" font-size="28">Pink Floyd – Have a Cigar</text>
+  </g>
+  <g fill="#111" font-size="30" font-family="'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif">
+    <text x="860" y="105">こっちいらっしゃい，坊や，葉巻でもどう</text>
+    <text x="860" y="160">君はもっといける，もっと高いところへ飛んでいける</text>
+    <text x="860" y="215">絶対死ぬことはない</text>
+    <text x="860" y="270">しようとおもえばなんだってできる</text>
+    <text x="860" y="325">周りがみんな君を愛してくれる</text>
+    <text x="860" y="380">いいかい，私はつねに深い敬意をもってきたんだよ</text>
+    <text x="860" y="435">それはつまり最も真摯にってことさ</text>
+    <text x="860" y="490">バンドはほんと最高だよ</text>
+    <text x="860" y="545">心からそうおもってる</text>
+    <text x="860" y="600">あ，ところでどっちがピンク？</text>
+    <text x="860" y="710">それでゲームの名前ってのは教えたっけ，坊や？</text>
+    <text x="860" y="765">ボロ儲けって言うんだけどさ</text>
+    <text x="1130" y="895" font-size="28">ピンク・フロイド ― 葉巻はいかが</text>
+  </g>
+</svg>
