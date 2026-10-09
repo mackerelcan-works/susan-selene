@@ -4,7 +4,6 @@ Susan Selene / Dialogue Archive
 /
   index.html        トップページ／記事一覧
   ogp.png           トップページ用OGP画像
-  _redirects        Netlify用リダイレクト設定
 /taiyo/
   index.html        『太陽を盗んだ男』対話
   ogp.png           記事用OGP画像
