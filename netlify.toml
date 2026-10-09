@@ -1,3 +1,7 @@
 [build]
   publish = "."
-  command = "find . -name '*.html' -type f -exec sed -i 's/、/，/g' {} +"
+  command = """
+set -e
+find . -name '*.html' -type f -exec sed -i 's/、/，/g' {} +
+sed -i "s#そのNME知らなかった。#その<a href='https://www.nme.com/news/music/anton-corbijn-first-documentary-squaring-the-circle-hipgnosis-3467411' target='_blank' rel='noopener noreferrer'>NME</a>知らなかった。#" hipgnosis/index.html
+"""
