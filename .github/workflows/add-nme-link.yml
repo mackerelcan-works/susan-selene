@@ -1,0 +1,42 @@
+name: Add NME link
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  add-link:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Add NME article link
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path('hipgnosis/index.html')
+          text = path.read_text(encoding='utf-8')
+          old = 'そのNME知らなかった。'
+          new = 'その<a href="https://www.nme.com/news/music/anton-corbijn-first-documentary-squaring-the-circle-hipgnosis-3467411" target="_blank" rel="noopener noreferrer">NME</a>知らなかった。'
+          if old not in text:
+              raise SystemExit('Target text not found')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+      - name: Commit change
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hipgnosis/index.html
+          git commit -m "Add NME source link"
+          git push origin HEAD:main
